@@ -214,3 +214,39 @@ body {
   font-size: 0.9rem;
 }
 
+/* Categories Section */
+.categories-section {
+  padding: 4rem 2rem;
+  background-color: #fff;
+  text-align: center;
+}
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.category-card {
+  background: #fffaf6;
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+.category-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+.category-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+.category-card h3 {
+  font-family: 'Playfair Display', serif;
+  color: #3c2a21;
+  font-size: 1.2rem;
+}
+
